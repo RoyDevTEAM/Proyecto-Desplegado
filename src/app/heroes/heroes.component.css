@@ -1,0 +1,67 @@
+/* Estilo para el encabezado h2 */
+h2 {
+  color: #FFA500; /* Color naranja representativo de Dragon Ball */
+}
+
+/* Estilo para el encabezado h2 con hover */
+h2:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para el formulario */
+div {
+  background-color: #f0f0f0; /* Color de fondo gris claro */
+  padding: 10px;
+  border: 1px solid #d3d3d3; /* Borde gris */
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Estilo para el campo de entrada */
+input {
+  border: 2px solid #FFA500; /* Borde naranja */
+  padding: 5px;
+  border-radius: 3px;
+}
+
+/* Estilo para la lista de héroes */
+ul.heroes {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilo para los elementos de la lista */
+ul.heroes li {
+  margin-bottom: 10px;
+}
+
+/* Estilo para los botones de los héroes */
+button {
+  background-color: #FFA500; /* Fondo naranja */
+  color: #fff; /* Texto blanco */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 150px;
+}
+
+/* Estilo para los botones de los héroes con hover */
+button:hover {
+  background-color: #FF6347; /* Fondo rojo anaranjado en hover */
+}
+
+/* Estilo para el distintivo del héroe (badge) */
+span.badge {
+  background-color: #FFD700; /* Fondo amarillo */
+  color: #000; /* Texto negro */
+  padding: 3px 6px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+/* Estilo para el nombre del héroe */
+span.name {
+  font-weight: bold;
+}
+

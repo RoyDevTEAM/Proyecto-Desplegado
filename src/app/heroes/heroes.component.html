@@ -1,0 +1,17 @@
+<h2>My Heroes</h2>
+
+<!-- Campo de entrada y botón para reemplazar -->
+<div>
+  <label for="name">Hero name: </label>
+  <input id="name" [(ngModel)]="hero.name" placeholder="name">
+  <button (click)="reemplazarHeroe()">Reemplazar</button>
+</div>
+
+<ul class="heroes">
+  <li *ngFor="let h of heroes">
+    <button type="button" (click)="seleccionarHeroe(h)">
+      <span class="badge">{{h.id}}</span>
+      <span class="name">{{h.name}}</span>
+    </button>
+  </li>
+</ul>
