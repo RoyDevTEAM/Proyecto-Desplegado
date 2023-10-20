@@ -1,0 +1,21 @@
+/* AppComponent's private CSS styles */
+h1 {
+  margin-bottom: 0;
+}
+nav a {
+  padding: 1rem;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #004D98; /* Azul del FC Barcelona */
+  color: wheat; /* Grana del FC Barcelona */
+  border-radius: 4px;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #A50044; /* Grana del FC Barcelona */
+}
+nav a.active {
+  background-color: #A50044; /* Grana del FC Barcelona */
+}

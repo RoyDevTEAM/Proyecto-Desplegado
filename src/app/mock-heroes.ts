@@ -1,15 +1,15 @@
-import { Hero } from './hero';
+//Este código representa el "cap dos" del tutorial de "Heroes" en Angular, donde se define un arreglo de héroes en un archivo llamado 'hero.ts'
+import { Hero } from './hero'; // Importa la clase Hero desde el archivo 'hero.ts'
 
-export const HEROES: Hero[] = [
-  { id: 1, name: 'Goku' },
-  { id: 2, name: 'Vegeta' },
-  { id: 3, name: 'Piccolo' },
-  { id: 4, name: 'Gohan' },
-  { id: 5, name: 'Krillin' },
-  { id: 6, name: 'Bulma' },
-  { id: 7, name: 'Trunks' },
-  { id: 8, name: 'Goten' },
-  { id: 9, name: 'Frieza' },
-  { id: 10, name: 'Cell' },
-  { id: 11, name: 'Majin Buu' }
+export const HEROES: Hero[] = [ // Define una constante 'HEROES' que es un arreglo de objetos de tipo Hero
+  { id: 11, name: 'Lionel Messi' }, // Cada objeto representa un héroe con un ID y un nombre
+  { id: 12, name: 'Xavi Hernandez' },
+  { id: 13, name: 'Andres Iniesta' },
+  { id: 14, name: 'Carles Puyol' },
+  { id: 15, name: 'Ronaldinho' },
+  { id: 16, name: 'Gerard Pique' },
+  { id: 17, name: 'Sergio Busquets' },
+  { id: 18, name: 'Luis Suarez' },
+  { id: 19, name: 'Neymar Jr.' },
+  { id: 20, name: 'Javier Mascherano' },
 ];

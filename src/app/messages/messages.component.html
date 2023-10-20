@@ -1,0 +1,5 @@
+<div *ngIf="messageService.messages.length" class="barcelona-messages">
+  <h2 class="barcelona-title">Messages</h2>
+  <button class="barcelona-clear" (click)="messageService.clear()">Clear messages</button>
+  <div *ngFor="let message of messageService.messages" class="barcelona-message">{{ message }}</div>
+</div>
